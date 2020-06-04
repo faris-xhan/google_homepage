@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+/* Header */
+
+.top {
+    display: flex;
+    list-style: none;
+    margin-right: 3%;
+    margin-top: 10px;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top li {
+    padding: 10px;
+}
+
+.top li a {
+    text-decoration: none;
+    color: black;
+}
+
+.top li a:hover {
+    text-decoration: underline;
+}
+button {
+    padding: 8px 8px;
+    background-color: #4285f4;
+    border-radius: none;
+    border-style: none;
+}
+
+.top li button a {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.body {
+    border: 1px solid black;
+    padding: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body img {
+    padding: 109px 0px 0px;
+    border: none;
+    border-color: white;   
+}
+
+.searchbar {
+    width: 430px;
+    padding: 10px;
+}
+
+.google_search_button ul { 
+    display: flex;
+    list-style: none;
+}
+
+.google_search_button ul li {
+    padding: 20px 10px;
+}
+
+.google_search_button ul li a{
+    padding: 10px 15px;
+    background: rgb(235, 231, 231);
+    color: black;
+    font-size: 14px;
+    opacity: .7;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.google_search_button ul li a:hover{
+    opacity: 1;
+    border: 0.1px solid rgb(204, 201, 201);
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.language ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.language ul li {
+    padding: 0 2px;
+}
+
+.language ul li a {
+    font-size: 12px;
+}
+
+/* Footer */
+
