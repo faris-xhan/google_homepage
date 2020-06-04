@@ -43,8 +43,7 @@ button {
 }
 
 .body {
-    border: 1px solid black;
-    padding: 200px;
+    padding: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,8 +59,13 @@ button {
 .searchbar {
     width: 430px;
     padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
 }
-
+.searchbar:active {
+    border-style: solid;
+    border-radius: 15px;
+}
 .google_search_button ul { 
     display: flex;
     list-style: none;
@@ -109,3 +113,46 @@ button {
 
 /* Footer */
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.country {
+    padding: 10px;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+.bottom {
+    display: flex;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.bottom ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.bottom ul li {
+    padding: 5px;
+}
+
+.left {
+    padding-left: 10px;
+}
+.right {
+    padding-right: 10px;
+}
+.bottom ul li a {
+    text-decoration: none;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.bottom ul li a:hover {
+    text-decoration: underline;
+}
